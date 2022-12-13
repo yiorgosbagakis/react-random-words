@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: "/react-random-words/",
+  base: "https://yiorgosbagakis.github.io/react-random-words/",
   plugins: [react()],
 })
